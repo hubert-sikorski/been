@@ -21,7 +21,10 @@ const Yelp = {
                         zipCode: business.location.zip_code,
                         category: business.categories[0].title,
                         rating: business.rating,
-                        reviewCount: business.review_count
+                        reviewCount: business.review_count,
+                        url: business.url,
+                        coordinates1: business.coordinates.latitude,
+                        coordinates2: business.coordinates.longitude
                     }
                 })
             }
