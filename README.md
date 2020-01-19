@@ -7,11 +7,11 @@ highest rating or number of reviews. Parks, Dance Clubs, Pubs, Churches, Arcades
 any type of spot one can think of. The app gives a quick sneak peak of the business: rating,
 address, reviews and if it even exists in the first place.
 
-## Link to the app: [Been](http://been.surge.sh)
-
-## Version history
+## Link to the app: [been.surge.sh](http://been.surge.sh)
 
 ![gif](src/Components/App/been.gif)
+
+## Version history
 
 - Version 1.0
   - Core components created: Search Bar, Business and Business List
@@ -19,7 +19,7 @@ address, reviews and if it even exists in the first place.
   - Yelp API incorporated to get data on requested business
   - Methods handling queries
   - Props specifying Business component
-  - API Key secured
+  - React environment setup to secure API
 
 - Version 1.1
   - Changed sorting options color
