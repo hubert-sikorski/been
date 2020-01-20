@@ -81,9 +81,12 @@
         background-image: url('./background_search_mobile.jpg');
     }
 
+    .SearchBar-sort-options {
+        margin-top: 1.22rem;
+    }
+
     .SearchBar-sort-options ul {
-        margin-left: 2rem;
-        margin-right: 2rem;
+        justify-content: center;
     }
 
     .SearchBar-fields {
@@ -94,5 +97,9 @@
     .SearchBar-fields input {
         margin-right: 0;
         margin-bottom: .86rem;
+    }
+
+    .SearchBar-submit {
+        margin-bottom: 2rem;
     }
 }
