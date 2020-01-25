@@ -87,7 +87,7 @@ class SearchBar extends React.Component {
                     placeholder="Where?" />
                 </div>
                 <div className="SearchBar-submit">
-                    <button class="searchButton" onClick={this.handleSearch}>
+                    <button className="searchButton" onClick={this.handleSearch}>
                         Let's Go
                     </button>
                 </div>

@@ -26,3 +26,6 @@ address, reviews and if it even exists in the first place.
   - Added search on Enter key hit
   - Linked address to Google Maps
   - Linked Venue image to corresponding Yelp profile
+
+- Version 1.2
+  - Changed styling of Business Component
