@@ -26,11 +26,15 @@ class Business extends React.Component {
                         </a>
                     </div>
                     <div className="Business-reviews">
-                        <h3>{this.props.business.category}</h3>
-                        <h3 className="rating">{this.props.business.rating}
-                            <i class="fa fa-star"></i>
+                        <h3>
+                            {this.props.business.category}
+                            </h3>
+                        <h3 className="rating">
+                            {this.props.business.rating}<i className="fa fa-star"></i>
                         </h3>
-                        <p>{this.props.business.reviewCount} reviews</p>
+                        <p>
+                            {this.props.business.reviewCount} reviews
+                        </p>
                     </div>
                 </div>
             </div>
