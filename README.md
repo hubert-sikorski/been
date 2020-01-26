@@ -24,8 +24,10 @@ address, reviews and if it even exists in the first place.
 - Version 1.1
   - Changed sorting options color
   - Added search on Enter key hit
-  - Linked address to Google Maps
+  - Linked address to Google Maps API
   - Linked Venue image to corresponding Yelp profile
 
 - Version 1.2
   - Changed styling of Business Component
+  - Fixed Google Maps API request to show location instead of coordinates
+  - Disabled no input search
