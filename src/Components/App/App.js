@@ -11,17 +11,15 @@ class App extends React.Component {
         this.state = {
             businesses: []
         };
-
-        this.searchYelp = this.searchYelp.bind(this);
     }
 
-    searchYelp(term, location, sortBy) {
+    searchYelp = (term, location, sortBy) => {
         Yelp.search(term, location, sortBy).then(businesses => {
             this.setState({
                 businesses: businesses
-            })
-        })
-    }
+            });
+        });
+    };
 
     render() {
         return (
@@ -32,6 +30,6 @@ class App extends React.Component {
             </div>
         );
     }
-};
+}
 
 export default App;

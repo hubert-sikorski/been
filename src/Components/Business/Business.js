@@ -6,39 +6,50 @@ class Business extends React.Component {
         return (
             <div className="Business">
                 <div className="image-container">
-                    <a href={this.props.business.url} target="_blank" rel="noopener noreferrer">
-                        <img src={this.props.business.imageSrc} alt=''/>
+                    <a
+                        href={this.props.business.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img src={this.props.business.imageSrc} alt="" />
                     </a>
                 </div>
                 <h2>
-                    <a href={this.props.business.url} target="_blank" rel="noopener noreferrer">
+                    <a
+                        href={this.props.business.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         {this.props.business.name}
                     </a>
                 </h2>
                 <div className="Business-information">
                     <div className="Business-address">
-                        <a className="Business-link" href={`https://www.google.com/maps/search/?api=1&query=${this.props.business.name} ${this.props.business.city}`} target="_blank" rel="noopener noreferrer">
+                        <a
+                            className="Business-link"
+                            href={`https://www.google.com/maps/search/?api=1&query=${this.props.business.name} ${this.props.business.city}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             {this.props.business.address}
-                            <br/>
+                            <br />
                             {this.props.business.city}
-                            <br/>
-                            {this.props.business.state} {this.props.business.zipCode}
+                            <br />
+                            {this.props.business.state}{' '}
+                            {this.props.business.zipCode}
                         </a>
                     </div>
                     <div className="Business-reviews">
-                        <h3>
-                            {this.props.business.category}
-                            </h3>
+                        <h3>{this.props.business.category}</h3>
                         <h3 className="rating">
-                            {this.props.business.rating}<i className="fa fa-star"></i>
+                            {this.props.business.rating}
+                            <i className="fa fa-star"></i>
                         </h3>
-                        <p>
-                            {this.props.business.reviewCount} reviews
-                        </p>
+                        <p>{this.props.business.reviewCount} reviews</p>
                     </div>
                 </div>
             </div>
-        )
+        );
     }
 }
 
