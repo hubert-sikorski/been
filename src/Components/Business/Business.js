@@ -16,11 +16,12 @@ class Business extends React.Component {
                 </div>
                 <h2>
                     <a
+                        className="Business-name"
                         href={this.props.business.url}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        {this.props.business.name}
+                        - {this.props.business.name} -
                     </a>
                 </h2>
                 <div className="Business-information">

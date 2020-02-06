@@ -8,7 +8,8 @@ class SearchBar extends React.Component {
         this.state = {
             term: '',
             location: '',
-            sortBy: 'best_match'
+            sortBy: 'best_match',
+            warning: 'none'
         };
 
         this.sortByOptions = {
@@ -52,13 +53,15 @@ class SearchBar extends React.Component {
 
     handleTermChange = event => {
         this.setState({
-            term: event.target.value
+            term: event.target.value,
+            warning: 'none'
         });
     };
 
     handleLocationChange = event => {
         this.setState({
-            location: event.target.value
+            location: event.target.value,
+            warning: 'none'
         });
     };
 
@@ -70,16 +73,24 @@ class SearchBar extends React.Component {
                 this.state.location,
                 this.state.sortBy
             );
+        } else {
+            this.setState({
+                warning: 'flex'
+            })
         }
     };
 
     handleEnterClick = event => {
-        if (event.key === 'Enter') {
+        if (event.key === 'Enter' && this.state.term && this.state.location) {
             this.props.searchYelp(
                 this.state.term,
                 this.state.location,
                 this.state.sortBy
             );
+        } else {
+            this.setState({
+                warning: 'flex'
+            })
         }
     };
 
@@ -100,6 +111,12 @@ class SearchBar extends React.Component {
                         onKeyPress={this.handleEnterClick}
                         placeholder="Where?"
                     />
+                </div>
+                <div
+                    className="Warning"
+                    style={{ display: this.state.warning }}
+                >
+                    Please provide a valid venue and location!
                 </div>
                 <div className="SearchBar-submit">
                     <button

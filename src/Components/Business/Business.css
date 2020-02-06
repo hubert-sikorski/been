@@ -50,7 +50,7 @@ a {
     font-weight: 400;
 }
 
-.Business-link:hover {
+.Business-link:hover, .Business-name:hover {
     color: rgba(218, 165, 32, 0.9);
 }
 

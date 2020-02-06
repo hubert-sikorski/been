@@ -9,7 +9,7 @@ address, reviews and if it even exists in the first place.
 
 ## Link to the app: [been.surge.sh](http://been.surge.sh)
 
-![gif](src/Components/App/been.gif)
+![gif](src/assets/been.gif)
 
 ## Version history
 
@@ -31,3 +31,4 @@ address, reviews and if it even exists in the first place.
   - Changed styling of Business Component
   - Fixed Google Maps API request to show location instead of coordinates
   - Disabled no input search
+  - Added validation
