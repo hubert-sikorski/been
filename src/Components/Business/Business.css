@@ -4,6 +4,10 @@
     justify-content: space-between;
     width: 16.66rem;
     margin: 0 0.5rem 2.3rem 0.5rem;
+    border: none;
+    border-radius: 5%;
+    padding: 1.5rem;
+    background-color: rgb(255, 255, 255, 0.8);
 }
 
 .Business .image-container {
@@ -50,7 +54,8 @@ a {
     font-weight: 400;
 }
 
-.Business-link:hover, .Business-name:hover {
+.Business-link:hover,
+.Business-name:hover {
     color: rgba(218, 165, 32, 0.9);
 }
 

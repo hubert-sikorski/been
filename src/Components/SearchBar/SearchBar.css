@@ -2,9 +2,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('../../assets/background_search_desktop.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
     height: 40vh;
 }
 
@@ -88,11 +85,7 @@
     background-color: rgba(255, 57, 57, 0.5);
 }
 
-@media only screen and (max-width: 560px) {
-    .SearchBar {
-        background-image: url('../../assets/background_search_mobile.jpg');
-    }
-
+@media only screen and (max-width: 1199px) {
     .SearchBar-sort-options {
         margin-top: 1.22rem;
     }

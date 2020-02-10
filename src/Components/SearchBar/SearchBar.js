@@ -76,7 +76,7 @@ class SearchBar extends React.Component {
         } else {
             this.setState({
                 warning: 'flex'
-            })
+            });
         }
     };
 
@@ -90,7 +90,7 @@ class SearchBar extends React.Component {
         } else {
             this.setState({
                 warning: 'flex'
-            })
+            });
         }
     };
 

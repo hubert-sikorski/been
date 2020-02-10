@@ -32,3 +32,9 @@ address, reviews and if it even exists in the first place.
   - Fixed Google Maps API request to show location instead of coordinates
   - Disabled no input search
   - Added validation
+
+- Version 1.3
+  - Changed background and set it's size
+  - Changed styling of business to display in individual card
+  - Implemented pagination
+  - Fixed input bars for midsize devices
