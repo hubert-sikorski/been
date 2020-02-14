@@ -34,7 +34,13 @@ address, reviews and if it even exists in the first place.
   - Added validation
 
 - Version 1.3
-  - Changed background and set it's size
+  - Changed background and set its size
   - Changed styling of business to display in individual card
   - Fixed input bars for midsize devices
   - :warning: Future note: Yelp Fusion API does not allow more than 50 results, so pagination was aborted
+
+- Version 2.0
+  - New color scheme
+  - New background
+  - New business elements
+  - Applied animations

@@ -7,7 +7,7 @@
     border: none;
     border-radius: 5%;
     padding: 1.5rem;
-    background-color: rgb(255, 255, 255, 0.8);
+    background: linear-gradient(rgba(195, 20, 50, 0.1), rgba(0, 0, 0, 0.99));
 }
 
 .Business .image-container {
@@ -16,6 +16,12 @@
     border-radius: 10%;
     border: 0.05rem none;
     filter: drop-shadow(2px 3.5px 2px #222);
+    transition: ease-out 1s;
+}
+
+.Business .image-container:hover {
+    transform: scale(1.1) translateX(0.1rem);
+    transition: transform .2s ease-out;
 }
 
 .Business h2 {
@@ -46,11 +52,11 @@
 a {
     text-decoration: none;
     font-family: sans-serif;
-    color: rgba(255, 57, 57, 0.9);
+    color: white;
 }
 
 .Business-link {
-    color: black;
+    color: white;
     font-weight: 400;
 }
 
@@ -64,11 +70,12 @@ a {
     flex-direction: column;
     justify-content: space-between;
     text-align: right;
+    color: white;
 }
 
 .Business-reviews h3 {
-    color: rgba(255, 57, 57, 0.9);
-    font-weight: 600;
+    color: white;
+    font-weight: 500;
 }
 
 .Business-reviews .rating {

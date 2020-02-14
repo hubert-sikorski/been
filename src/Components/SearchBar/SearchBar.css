@@ -30,8 +30,8 @@
 
 .SearchBar-sort-options li.active,
 .SearchBar-sort-options li.active:hover {
-    border-bottom: 1px solid rgba(218, 165, 32, 0.9);
-    color: rgba(218, 165, 32, 0.9);
+    border-bottom: 1px solid rgba(195, 20, 50, 1);
+    color: rgba(195, 20, 50, 1);
 }
 
 .SearchBar-fields {
@@ -74,7 +74,7 @@
     border: 0;
     border-radius: 4px;
     padding: 0.72rem 1.7rem;
-    background-color: rgb(223, 79, 79);
+    background-color: rgba(195, 20, 50, 0.9);
     color: #fff;
     font-weight: 600;
     transition: background-color 0.5s;
@@ -82,12 +82,13 @@
 
 .SearchBar-submit button:hover {
     cursor: pointer;
-    background-color: rgba(255, 57, 57, 0.5);
+    background-color: rgba(36, 11, 54, 0.8);
+    transition: ease-in 0.3s;
 }
 
 @media only screen and (max-width: 1199px) {
     .SearchBar-sort-options {
-        margin-top: 1.22rem;
+        margin-top: 6rem;
     }
 
     .SearchBar-sort-options ul {
