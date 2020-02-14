@@ -4,3 +4,9 @@
     flex-wrap: wrap;
     margin: 4.4rem 10%;
 }
+
+@media only screen and (max-width: 767px) {
+    .BusinessList {
+        margin-top: 10rem;
+    }
+}
