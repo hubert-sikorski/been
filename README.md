@@ -1,15 +1,9 @@
-# Been App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+# Been App - [been.surge.sh](http://been.surge.sh)
 
 A Yelp clone app that shows any type of venues in the city of user's choice by best match,
 highest rating or number of reviews. Parks, Dance Clubs, Pubs, Churches, Arcades, literally
 any type of spot one can think of. The app gives a quick sneak peak of the business: rating,
 address, reviews and if it even exists in the first place.
-
-## Link to the app: [been.surge.sh](http://been.surge.sh)
-
-![gif](src/assets/been.gif)
 
 ## Version history
 

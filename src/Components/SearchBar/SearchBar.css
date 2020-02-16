@@ -70,7 +70,7 @@
 
 .SearchBar-submit button:hover {
     cursor: pointer;
-    background-color: rgba(36, 11, 54, 0.8);
+    background-color: rgba(36, 11, 54, 1);
     transition: ease-in 0.3s;
 }
 

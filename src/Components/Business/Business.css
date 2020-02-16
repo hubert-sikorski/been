@@ -20,8 +20,8 @@
 }
 
 .Business .image-container:hover {
-    transform: scale(1.1) translateX(0.1rem);
-    transition: transform .2s ease-out;
+    transform: scale(1.02) translateX(0.1rem);
+    transition: transform .2s ease-in;
 }
 
 .Business h2 {
@@ -63,6 +63,7 @@ a {
 .Business-link:hover,
 .Business-name:hover {
     color: rgba(218, 165, 32, 0.9);
+    transition: .2s ease-in-out;
 }
 
 .Business-reviews {
