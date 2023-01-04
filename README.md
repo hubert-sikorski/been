@@ -1,3 +1,5 @@
+# :warning: This project is no longer maintained. It might not work as expected since Yelp changed the API it depends on.
+
 # Been App - [been.surge.sh](http://been.surge.sh)
 
 A Yelp clone app that shows any type of venues in the city of user's choice by best match,
